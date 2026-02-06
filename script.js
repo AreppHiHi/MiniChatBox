@@ -1,6 +1,6 @@
 // --- CONFIGURATION ---
 // PASTE YOUR KEY INSIDE THE QUOTES BELOW
-const API_KEY = "AIzaSyByVv-MSZ97HHCVUuNGj3YMbiDUPE0Qtuk";
+const API_KEY = "AIzaSyBV-S6WiKZHZP_WN1Aiu94hiIsyvhyTyuM";
 
 // PASTE YOUR COMPANY DATA HERE
 const companyData = `
@@ -124,4 +124,5 @@ chatInput.addEventListener("keydown", (e) => {
 
 sendChatBtn.addEventListener("click", handleChat);
 closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
